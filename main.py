@@ -9,7 +9,10 @@ with open("delivery_price_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 
-class DeliveryRequest(BaseModel):
+
+class DeliveryRequest(BaseModel): 
+
+    
 
     distance_km: float
     package_weight_kg: float
