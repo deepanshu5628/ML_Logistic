@@ -11,9 +11,6 @@ with open("delivery_price_model.pkl", "rb") as f:
 
 
 class DeliveryRequest(BaseModel): 
-
-    
-
     distance_km: float
     package_weight_kg: float
     vehicle_type: str
