@@ -4,6 +4,7 @@ fastapi
 uvicorn
 pandas
 scikit-learn
+ipykernel
 
 
 
